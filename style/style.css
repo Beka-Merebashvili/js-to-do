@@ -1,0 +1,21 @@
+*{
+   text-decoration: none;
+   list-style-type: none;
+   box-sizing: border-box;
+}
+body{
+    background-color: #13671a;
+}
+#wrapper img:hover{
+    cursor: pointer;
+    box-shadow: 6px 0 10px;
+}
+#load-more , #load-previous {
+    background-color: #8f1b42;
+    margin-left: 40px;
+}
+#load-more:hover , #load-previous:hover{
+    background-color: #761737;
+    cursor: pointer;
+}
+ 
